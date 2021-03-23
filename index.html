@@ -2,22 +2,62 @@
 <html>
 <head>
     <title> </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
 <body>
-    <h1>Epi.School</h1>
-
-    <h2>Chris Piwinski's Learning Center</h2>
-    <p><a href="second.html">Assignments Page</a></p>
-    <p>This is my learning landing page for Epi.School.</p>
-    <p>To start, I'll point you to my <a href="https://www.linkedin.com/in/christopherpiwinski/">LinkedIn.</a></p>
-   
-    <h2>Learning Priorities:</h2>
-        <ul>
-            <li>Gain a good coding foundation.</li>
-            <li>Add a feature to LEVEL.</li>
-            <li>Learn to manage LEVEL's platform.</li>
-        </ul>
-        <img src="https://github.com/levelbaseball/levelepischool.github.io/blob/main/NatandChris.jpeg?raw=true">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">CMP Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="second.html">
+                  Assignments
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="tile is-ancestor">
+        <div class="tile is-4 is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">Chris Piwinski's Learning Center</p>
+            <p>This is my learning landing page for Epi.School.</p>
+            <p>Want to know more about my career outside of my coding journey? Check out my <a href="https://www.linkedin.com/in/christopherpiwinski/">LinkedIn Profile.</a></p>
+          </div>
+          <div class="tile is-child box">
+            <p class="title">Learning Priorities</p>
+            <ul>
+                <li>Gain a good coding foundation.</li>
+                <li>Add a feature to LEVEL.</li>
+                <li>Learn to manage LEVEL's platform.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <p class="title">Chris & Nat</p>
+            <figure>
+                <img src="https://github.com/levelbaseball/levelepischool.github.io/blob/main/NatandChris.jpeg?raw=true">
+            </figure>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>
